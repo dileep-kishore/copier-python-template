@@ -1,0 +1,20 @@
+[project]
+name = "{{project_name}}"
+version = "0.1.0"
+description = "<project-description>"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[dependency-groups]
+dev = [
+  "ipython"
+]
+
+[tool.setuptools]
+packages = ["{{project_name}}"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

@@ -1,2 +1,3 @@
-# copier-python-template
-Python project template to be used with copier-org/copier
+# {{project_name}}
+
+To get started run `uv venv` and then `uv sync`
