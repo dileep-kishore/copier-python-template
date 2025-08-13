@@ -208,3 +208,9 @@ __marimo__/
 # devenv specific
 .devenv/
 .direnv/
+
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+.stfolder/
